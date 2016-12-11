@@ -19,14 +19,10 @@ for example:
 
 write with AES
 
-{% highlight ruby %}
-
-// init the file system with decrypt code
-FileUtils::getInstance()->createCryptoSystem("1234567890123456", 4);
-// decrypto the encrypt file in sprite
-auto sprite = Sprite::createCrypto("res/HelloWorldTest.png");
-
-{% endhighlight %}
+    // init the file system with decrypt code
+    FileUtils::getInstance()->createCryptoSystem("1234567890123456", 4);
+    // decrypto the encrypt file in sprite
+    auto sprite = Sprite::createCrypto("res/HelloWorldTest.png");
 
 
 also you can rewrite with 2d&3d parts
